@@ -1,0 +1,24 @@
+SLH-DSA Benchmark Results
+========================================
+
+Benchmarking SLH_DSA_PURE_SHA2_256F keypair generation...
+Algorithm: SLH_DSA_PURE_SHA2_256F
+Runs: 20
+Mean keypair time: 24.850 ms
+Min keypair time: 21.335 ms
+Max keypair time: 29.137 ms
+Times (ms): [29.137, 28.817, 24.587, 21.335, 22.113, 23.696, 22.498, 25.658, 26.547, 23.399, 27.882, 22.141, 24.486, 25.243, 21.85, 23.457, 26.272, 26.995, 25.01, 25.877]
+
+Benchmarking SLH_DSA_PURE_SHA2_256F signing...
+Algorithm: SLH_DSA_PURE_SHA2_256F
+Runs: 20
+Mean signing time: 471.568 ms
+Min signing time: 407.100 ms
+Max signing time: 571.005 ms
+Signing times (ms): [465.723, 489.981, 468.448, 407.1, 479.782, 467.758, 426.08, 435.277, 485.582, 571.005, 479.375, 483.271, 481.068, 489.603, 447.691, 453.244, 466.683, 508.72, 438.412, 486.561]
+
+Measuring SLH_DSA_PURE_SHA2_256F size metrics...
+Algorithm: SLH_DSA_PURE_SHA2_256F
+Public key size: 64 bytes
+Secret key size: 128 bytes
+Signature size: 49856 bytes
