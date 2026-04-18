@@ -1,21 +1,21 @@
 SLH-DSA Benchmark Results
-========================================
+=========================
 
 Benchmarking SLH_DSA_PURE_SHA2_256F keypair generation...
 Algorithm: SLH_DSA_PURE_SHA2_256F
 Runs: 20
-Mean keypair time: 24.850 ms
-Min keypair time: 21.335 ms
-Max keypair time: 29.137 ms
-Times (ms): [29.137, 28.817, 24.587, 21.335, 22.113, 23.696, 22.498, 25.658, 26.547, 23.399, 27.882, 22.141, 24.486, 25.243, 21.85, 23.457, 26.272, 26.995, 25.01, 25.877]
+Mean keypair time: 15.275 ms
+Min keypair time: 9.847 ms
+Max keypair time: 30.590 ms
+Times (ms): [10.979, 10.34, 11.513, 9.882, 10.947, 12.108, 14.557, 10.239, 9.847, 22.018, 18.605, 17.641, 24.254, 17.678, 11.259, 22.524, 10.45, 9.99, 30.59, 20.085]
 
 Benchmarking SLH_DSA_PURE_SHA2_256F signing...
 Algorithm: SLH_DSA_PURE_SHA2_256F
 Runs: 20
-Mean signing time: 471.568 ms
-Min signing time: 407.100 ms
-Max signing time: 571.005 ms
-Signing times (ms): [465.723, 489.981, 468.448, 407.1, 479.782, 467.758, 426.08, 435.277, 485.582, 571.005, 479.375, 483.271, 481.068, 489.603, 447.691, 453.244, 466.683, 508.72, 438.412, 486.561]
+Mean signing time: 275.551 ms
+Min signing time: 231.460 ms
+Max signing time: 378.886 ms
+Signing times (ms): [357.578, 275.822, 293.457, 258.555, 378.886, 246.148, 257.267, 306.567, 270.462, 270.401, 258.092, 272.616, 253.445, 263.324, 253.382, 231.46, 232.615, 266.776, 271.619, 292.539]
 
 Measuring SLH_DSA_PURE_SHA2_256F size metrics...
 Algorithm: SLH_DSA_PURE_SHA2_256F

@@ -1,0 +1,21 @@
+RSA-4096 Benchmark Results
+==========================
+
+Benchmarking RSA-4096 keypair generation...
+Runs: 20
+Mean keypair time: 512.774 ms
+Min keypair time: 133.919 ms
+Max keypair time: 1097.818 ms
+Times (ms): [316.192, 1002.843, 133.919, 481.548, 184.32, 239.472, 1097.818, 439.387, 747.262, 1078.978, 420.522, 206.382, 783.506, 248.459, 329.211, 422.227, 852.506, 391.767, 201.727, 677.436]
+
+Benchmarking RSA-4096 signing...
+Runs: 20
+Mean signing time: 4.500 ms
+Min signing time: 2.687 ms
+Max signing time: 7.722 ms
+Signing times (ms): [7.722, 4.671, 3.992, 3.597, 3.685, 6.242, 3.517, 2.687, 6.339, 3.071, 4.346, 3.772, 4.649, 6.279, 6.078, 4.045, 3.018, 4.783, 3.492, 4.021]
+
+Measuring RSA-4096 size metrics...
+Public key size: 800 bytes
+Private key size: 3243 bytes
+Signature size: 512 bytes
