@@ -1,0 +1,42 @@
+ML-KEM Benchmark Results
+========================
+
+Benchmarking ML-KEM-768 keypair generation...
+Algorithm: ML-KEM-768
+Runs: 20
+Mean keypair time: 0.539 ms
+Min keypair time: 0.356 ms
+Max keypair time: 0.852 ms
+Mean peak memory: 5.265 KB
+Max peak memory: 11.284 KB
+Times (ms): [0.752, 0.686, 0.601, 0.723, 0.386, 0.591, 0.372, 0.498, 0.356, 0.375, 0.516, 0.523, 0.734, 0.852, 0.559, 0.565, 0.423, 0.517, 0.382, 0.372]
+Peaks (KB): [11.284, 4.923, 4.923, 4.923, 4.923, 4.923, 4.923, 4.923, 4.923, 5.41, 4.923, 4.923, 4.923, 4.923, 4.923, 4.923, 4.923, 4.923, 4.923, 4.923]
+
+Benchmarking ML-KEM-768 encapsulation...
+Algorithm: ML-KEM-768
+Runs: 20
+Mean encapsulation time: 0.468 ms
+Min encapsulation time: 0.379 ms
+Max encapsulation time: 0.809 ms
+Mean peak memory: 4.075 KB
+Max peak memory: 10.064 KB
+Encapsulation times (ms): [0.797, 0.476, 0.386, 0.405, 0.389, 0.4, 0.383, 0.379, 0.39, 0.522, 0.567, 0.809, 0.401, 0.412, 0.382, 0.476, 0.381, 0.397, 0.384, 0.614]
+Peaks (KB): [10.064, 3.76, 3.76, 3.76, 3.76, 3.76, 3.76, 3.76, 3.76, 3.76, 3.76, 3.76, 3.76, 3.76, 3.76, 3.76, 3.76, 3.76, 3.76, 3.76]
+
+Benchmarking ML-KEM-768 decapsulation...
+Algorithm: ML-KEM-768
+Runs: 20
+Mean decapsulation time: 0.540 ms
+Min decapsulation time: 0.446 ms
+Max decapsulation time: 0.752 ms
+Mean peak memory: 1.668 KB
+Max peak memory: 2.276 KB
+Decapsulation times (ms): [0.515, 0.56, 0.513, 0.741, 0.532, 0.446, 0.464, 0.454, 0.716, 0.752, 0.482, 0.467, 0.482, 0.489, 0.506, 0.639, 0.476, 0.497, 0.599, 0.476]
+Peaks (KB): [2.117, 1.609, 1.609, 1.609, 1.609, 1.609, 1.609, 1.609, 1.609, 1.609, 1.609, 1.609, 2.276, 1.609, 1.609, 1.609, 1.609, 1.609, 1.609, 1.609]
+
+Measuring ML-KEM-768 size metrics...
+Algorithm: ML-KEM-768
+Public key size: 1184 bytes
+Secret key size: 2400 bytes
+Ciphertext size: 1088 bytes
+Shared secret size: 32 bytes

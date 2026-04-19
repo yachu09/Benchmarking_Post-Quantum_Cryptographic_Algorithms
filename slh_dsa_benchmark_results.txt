@@ -1,24 +1,30 @@
 SLH-DSA Benchmark Results
 =========================
 
-Benchmarking SLH_DSA_PURE_SHA2_256F keypair generation...
-Algorithm: SLH_DSA_PURE_SHA2_256F
+Benchmarking SLH_DSA_PURE_SHA2_128F keypair generation...
+Algorithm: SLH_DSA_PURE_SHA2_128F
 Runs: 20
-Mean keypair time: 15.275 ms
-Min keypair time: 9.847 ms
-Max keypair time: 30.590 ms
-Times (ms): [10.979, 10.34, 11.513, 9.882, 10.947, 12.108, 14.557, 10.239, 9.847, 22.018, 18.605, 17.641, 24.254, 17.678, 11.259, 22.524, 10.45, 9.99, 30.59, 20.085]
+Mean keypair time: 5.773 ms
+Min keypair time: 4.872 ms
+Max keypair time: 7.971 ms
+Mean peak memory: 0.885 KB
+Max peak memory: 6.787 KB
+Times (ms): [5.609, 4.872, 5.511, 5.386, 5.034, 6.102, 5.036, 6.056, 5.251, 4.982, 6.211, 5.845, 6.502, 4.911, 4.901, 7.768, 4.913, 7.971, 5.813, 6.791]
+Peaks (KB): [6.787, 1.206, 0.539, 0.539, 0.539, 0.539, 0.539, 0.539, 0.539, 0.539, 0.539, 0.539, 0.539, 0.539, 0.539, 0.539, 0.539, 0.539, 0.539, 0.539]
 
-Benchmarking SLH_DSA_PURE_SHA2_256F signing...
-Algorithm: SLH_DSA_PURE_SHA2_256F
+Benchmarking SLH_DSA_PURE_SHA2_128F signing...
+Algorithm: SLH_DSA_PURE_SHA2_128F
 Runs: 20
-Mean signing time: 275.551 ms
-Min signing time: 231.460 ms
-Max signing time: 378.886 ms
-Signing times (ms): [357.578, 275.822, 293.457, 258.555, 378.886, 246.148, 257.267, 306.567, 270.462, 270.401, 258.092, 272.616, 253.445, 263.324, 253.382, 231.46, 232.615, 266.776, 271.619, 292.539]
+Mean signing time: 133.702 ms
+Min signing time: 113.531 ms
+Max signing time: 155.074 ms
+Mean peak memory: 34.506 KB
+Max peak memory: 41.562 KB
+Signing times (ms): [122.541, 136.294, 138.033, 133.963, 126.16, 155.074, 128.164, 127.674, 126.604, 113.531, 123.207, 150.526, 131.478, 135.736, 127.553, 142.673, 131.261, 146.744, 142.069, 134.758]
+Peaks (KB): [41.562, 34.23, 34.129, 34.129, 34.129, 34.129, 34.129, 34.129, 34.129, 34.129, 34.129, 34.129, 34.129, 34.129, 34.129, 34.129, 34.129, 34.129, 34.129, 34.129]
 
-Measuring SLH_DSA_PURE_SHA2_256F size metrics...
-Algorithm: SLH_DSA_PURE_SHA2_256F
-Public key size: 64 bytes
-Secret key size: 128 bytes
-Signature size: 49856 bytes
+Measuring SLH_DSA_PURE_SHA2_128F size metrics...
+Algorithm: SLH_DSA_PURE_SHA2_128F
+Public key size: 32 bytes
+Secret key size: 64 bytes
+Signature size: 17088 bytes
