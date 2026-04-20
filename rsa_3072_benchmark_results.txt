@@ -2,24 +2,20 @@ RSA-3072 Benchmark Results
 ==========================
 
 Benchmarking RSA-3072 keypair generation...
-Runs: 20
-Mean keypair time: 243.673 ms
-Min keypair time: 43.041 ms
-Max keypair time: 450.447 ms
-Mean peak memory: 0.244 KB
-Max peak memory: 2.962 KB
-Times (ms): [59.323, 339.631, 43.041, 82.882, 244.302, 139.097, 447.846, 128.764, 334.907, 387.502, 218.234, 148.833, 143.598, 188.768, 422.329, 193.714, 333.964, 450.447, 245.856, 320.428]
-Peaks (KB): [2.962, 0.792, 0.023, 0.023, 0.023, 0.023, 0.023, 0.023, 0.023, 0.023, 0.719, 0.023, 0.023, 0.023, 0.023, 0.023, 0.023, 0.023, 0.023, 0.023]
+Runs: 10000
+Mean keypair time: 657.897 ms
+Min keypair time: 25.925 ms
+Max keypair time: 4872.525 ms
+Mean peak memory: 0.074 KB
+Max peak memory: 18.639 KB
 
 Benchmarking RSA-3072 signing...
-Runs: 20
-Mean signing time: 3.931 ms
-Min signing time: 2.902 ms
-Max signing time: 7.974 ms
-Mean peak memory: 1.395 KB
-Max peak memory: 4.889 KB
-Signing times (ms): [7.974, 3.362, 3.29, 4.405, 3.849, 2.977, 3.856, 3.819, 3.762, 3.755, 3.741, 3.479, 3.071, 3.186, 2.902, 4.241, 4.287, 4.632, 4.246, 3.782]
-Peaks (KB): [4.889, 1.639, 1.576, 1.529, 1.482, 1.436, 1.373, 1.311, 1.264, 1.217, 1.154, 1.107, 1.061, 1.037, 1.021, 0.99, 0.975, 0.959, 0.943, 0.928]
+Runs: 10000
+Mean signing time: 5.264 ms
+Min signing time: 3.890 ms
+Max signing time: 25.935 ms
+Mean peak memory: 0.795 KB
+Max peak memory: 0.795 KB
 
 Measuring RSA-3072 size metrics...
 Public key size: 625 bytes

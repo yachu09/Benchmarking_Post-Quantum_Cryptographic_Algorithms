@@ -2,24 +2,20 @@ ECDH-P-256 Benchmark Results
 ============================
 
 Benchmarking ECDH-P-256 keypair generation...
-Runs: 20
-Mean keypair time: 0.354 ms
-Min keypair time: 0.080 ms
-Max keypair time: 4.928 ms
-Mean peak memory: 0.308 KB
+Runs: 10000
+Mean keypair time: 0.120 ms
+Min keypair time: 0.071 ms
+Max keypair time: 4.056 ms
+Mean peak memory: 0.236 KB
 Max peak memory: 1.060 KB
-Times (ms): [4.928, 0.183, 0.266, 0.113, 0.12, 0.102, 0.127, 0.095, 0.117, 0.087, 0.08, 0.092, 0.087, 0.081, 0.081, 0.102, 0.084, 0.107, 0.131, 0.097]
-Peaks (KB): [1.06, 0.336, 0.328, 0.32, 0.305, 0.297, 0.289, 0.281, 0.273, 0.266, 0.258, 0.25, 0.236, 0.236, 0.236, 0.236, 0.236, 0.236, 0.236, 0.236]
 
 Benchmarking ECDH-P-256 shared secret derivation...
-Runs: 20
-Mean derivation time: 0.153 ms
-Min derivation time: 0.119 ms
-Max derivation time: 0.602 ms
-Mean peak memory: 0.302 KB
+Runs: 10000
+Mean derivation time: 0.149 ms
+Min derivation time: 0.107 ms
+Max derivation time: 0.809 ms
+Mean peak memory: 0.236 KB
 Max peak memory: 0.585 KB
-Derivation times (ms): [0.602, 0.138, 0.129, 0.129, 0.145, 0.125, 0.124, 0.122, 0.123, 0.124, 0.121, 0.122, 0.124, 0.12, 0.119, 0.123, 0.136, 0.128, 0.127, 0.183]
-Peaks (KB): [0.585, 0.36, 0.353, 0.345, 0.337, 0.329, 0.321, 0.306, 0.298, 0.29, 0.282, 0.274, 0.267, 0.259, 0.251, 0.236, 0.236, 0.236, 0.236, 0.236]
 
 Measuring ECDH-P-256 size metrics...
 Public key size: 178 bytes

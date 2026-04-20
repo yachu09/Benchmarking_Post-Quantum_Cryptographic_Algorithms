@@ -1,0 +1,26 @@
+ML-DSA Benchmark Results
+========================
+
+Benchmarking ML-DSA-44 keypair generation...
+Algorithm: ML-DSA-44
+Runs: 10000
+Mean keypair time: 0.928 ms
+Min keypair time: 0.577 ms
+Max keypair time: 18.102 ms
+Mean peak memory: 5.329 KB
+Max peak memory: 8.206 KB
+
+Benchmarking ML-DSA-44 signing...
+Algorithm: ML-DSA-44
+Runs: 10000
+Mean signing time: 3.566 ms
+Min signing time: 0.923 ms
+Max signing time: 29.380 ms
+Mean peak memory: 5.464 KB
+Max peak memory: 6.120 KB
+
+Measuring ML-DSA-44 size metrics...
+Algorithm: ML-DSA-44
+Public key size: 1312 bytes
+Secret key size: 2560 bytes
+Signature size: 2420 bytes
